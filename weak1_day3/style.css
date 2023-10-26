@@ -1,0 +1,62 @@
+.wrapper
+{
+    display: flex;
+}
+.aside{
+    /* width:45%; */
+    height: 800px;
+    float: left;
+}
+.pic{
+    /* width:30%; */
+    height:250px;
+    
+    padding: 50px;
+    /* display: flex; */
+    justify-content: center;
+}
+
+img{
+    width: 250px ;
+    height:250px;
+    border-radius: 50%; 
+}
+.para{
+    /* width: 45%; */
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 2px;
+   
+
+}
+.main{
+    /* float: right; */
+    
+    height: 800px;
+    width: 53%;
+    justify-content: center;
+    
+}
+/* .header{
+    height: 70px;
+    width: 40%;
+    border: 1px solid black ;
+} */
+.btn{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.des{
+    padding: 30px;
+    
+}
+h4{
+    color: gray;
+}
+.para button{
+    width:170px;
+    height:40px;
+    border-radius: 10px;
+    border-color: gray;
+}
